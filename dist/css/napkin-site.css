@@ -210,4 +210,8 @@ figure > img,
   display: inline-block;
   padding-right: 8px; }
 
+.disabled-link img {
+  cursor: not-allowed;
+  opacity: 0.6; }
+
 /*# sourceMappingURL=napkin-site.css.map */

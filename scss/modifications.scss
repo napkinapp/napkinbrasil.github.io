@@ -259,3 +259,19 @@ figure>img,
   display: inline-block;
   padding-right: 8px;
 }
+
+.disabled-link img{
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+// .disabled-link p {
+//   z-index: 10;
+//   top: -45px;
+//   position: relative;
+//   font-size: 2.4em;
+//   text-transform: uppercase;
+//   -webkit-transform: rotate(-28deg);
+//   -ms-transform: rotate(-28deg);
+//   transform: rotate(-28deg)
+// }
