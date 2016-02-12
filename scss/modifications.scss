@@ -1,276 +1,227 @@
 body {
-    font-family: $font-stack;
-    font-size: 1.5em;
+  font-family: $font-stack;
+  font-size: 1.5em;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: $font-logo;
-    color: $primary-color;
+  font-family: $font-logo;
+  color: $primary-color;
 }
-
 .lead,
 strong,
 .icons {
   color: $accent-color;
 }
-
 .accent {
   background-color: $light-rose-color;
 }
-
 #first-sec {
   background-color: $primary-color;
   color: $light-text;
 }
-
 #logo-text,
 #first-sec h1 {
   font-family: $font-logo;
   color: $light-text;
 }
-
 #logo-text {
   color: $primary-color;
 }
-
 #first-sec .lead {
   color: $light-text;
 }
-
 #img-logo {
   padding: 120px 0;
 }
-
-#pen-napkin {
-
-}
-
+#pen-napkin {}
 img,
 figure>img,
-#pen-napkin img{
+#pen-napkin img {
   max-width: 100%;
   height: auto;
 }
-
 .noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-
 .navbar {
   margin-bottom: 0;
 }
-
+.navbar-default {
+  background-color: #fff;
+}
 .navbar-brand {
   padding-top: 5px;
 }
-
 .navbar-fixed-top {
-    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
-    -moz-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
-    -ms-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
+  -ms-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
 }
-
+.navbar-nav li {
+  border-bottom: 4px solid #fff;
+}
+.start .nav-start,
+.ask .nav-ask,
+.work .nav-work {
+  border-bottom-color: $accent-color;
+}
 .link-stores img {
-    margin-top: 3%;
-    width: 203px;
-    height: 60px;
+  margin-top: 3%;
+  width: 203px;
+  height: 60px;
 }
-
 .header-section {
   text-align: center;
-  padding: 35px 10px 25px 10px;
+  padding: 35px 10px 25px;
 }
-
 /* -- footer -- */
 .footer {
-    background-color: $dark-primary-color;
-    margin-bottom: 0;
-    bottom: 0;
-    padding: 35px 0;
-    color: $accent-color;
+  background-color: $dark-primary-color;
+  margin-bottom: 0;
+  bottom: 0;
+  padding: 35px 0;
+  color: $accent-color;
 }
-
 .footer ul {
-    display: block;
-    list-style: none;
+  display: block;
+  list-style: none;
 }
-
 .footer ul li {
-    display: inline-block;
-    margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
-
 .footer ul li a img {
   width: 28px;
 }
-
 .footer ul li a:hover img {
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg)
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
 }
-
 @media screen and (min-width: 900px) {
   #first-sec {
     height: 650px;
   }
-
   #img-section {
     height: 500px;
   }
 }
-
 @media screen and (min-width: 741px) and (max-width: 899px) {
-  #img-section{
+  #img-section {
     height: 420px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 740px) {
-  #img-section{
+  #img-section {
     height: 325px;
   }
 }
-
 @media screen and (max-width: 400px) {
   #first-sec {
     height: 516px;
   }
-
-  #img-section{
+  #img-section {
     height: 200px;
   }
-
   footer ul {
     margin-left: -55px;
     margin-top: 15px;
   }
-
   #pen-napkin img {
     margin-bottom: 10px;
   }
 }
-
 /* -- comeco.html -- */
-
 #img-section {
   position: relative;
   padding: 30px 15px;
   color: #cdbfe3;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-
-  background-image: url(https://dl.dropboxusercontent.com/u/104095732/NapkinSite/assets/img/people-woman-coffee-meeting.jpg);
+  background-image: url("https://dl.dropboxusercontent.com/u/104095732/NapkinSite/assets/img/people-woman-coffee-meeting.jpg");
   background-size: 100%;
   background-repeat: repeat-x;
-
   h1 {
     color: $light-text;
   }
 }
-
 .bg {
-    background: rgba(0,0,0,.54);
-    bottom: 0;
-    padding: 12px 50px 46px;
-    z-index: 10;
+  background: rgba(0,0,0,.54);
+  bottom: 0;
+  padding: 12px 50px 46px;
+  z-index: 10;
 }
-
 .bg,
 .bg::before {
-    position: absolute;
-    width: 100%;
-    left: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
-
 .bg::before {
-    background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.54) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000', GradientType=0 );
-    display: block;
-    height: 100px;
-    top: -100px;
-    content: '';
+  background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.54) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000', GradientType=0 );
+  display: block;
+  height: 100px;
+  top: -100px;
+  content: '';
 }
-
 .espace {
   padding-top: 35px;
   padding-bottom: 25px;
 }
-
 .icons {
   font-size: 5em;
 }
-
 .normal-icons {
   color: #ccc;
   font-size: 0.6em !important;
 }
-
 /* -- Vertical Aligner -- */
 .aligner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 24em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24em;
 }
-
 @supports not (-ms-flex: 1) {
-    .aligner {
-        height: auto;
-        min-height: 4em;
-    }
+  .aligner {
+    height: auto;
+    min-height: 4em;
+  }
 }
-
 .align-item {
-    flex: 1;
-    max-width: 50%;
+  flex: 1;
+  max-width: 50%;
 }
-
 .align-item--top {
-    align-self: flex-start;
+  align-self: flex-start;
 }
-
 .align-item--bottom {
-    align-self: flex-end;
+  align-self: flex-end;
 }
-
 .align-item--fixed {
-    flex: none;
-    max-width: 50%;
+  flex: none;
+  max-width: 50%;
 }
-
 #members ul {
-  padding-left: 0px;
+  padding-left: 0;
   list-style: none;
 }
-
 #members ul>li {
   display: inline-block;
   padding-right: 8px;
 }
-
-.disabled-link img{
+.disabled-link img {
   cursor: not-allowed;
   opacity: 0.6;
 }
-
-// .disabled-link p {
-//   z-index: 10;
-//   top: -45px;
-//   position: relative;
-//   font-size: 2.4em;
-//   text-transform: uppercase;
-//   -webkit-transform: rotate(-28deg);
-//   -ms-transform: rotate(-28deg);
-//   transform: rotate(-28deg)
-// }
