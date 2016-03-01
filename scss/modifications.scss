@@ -66,11 +66,16 @@ figure>img,
   -ms-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.32);
 }
-.navbar-nav li {
+.navbar-nav li,
+.navbar-nav > li > a {
   transition: all .2s ease-in-out;
 }
 .navbar-nav li:hover {
   box-shadow: inset 0 -4px $accent-color;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: $accent-color !important;
 }
 
 .start .nav-start,
@@ -112,39 +117,6 @@ figure>img,
   -o-transform: rotate(5deg);
   transform: rotate(5deg);
 }
-@media screen and (min-width: 900px) {
-  #first-sec {
-    height: 650px;
-  }
-  #img-section {
-    height: 500px;
-  }
-}
-@media screen and (min-width: 741px) and (max-width: 899px) {
-  #img-section {
-    height: 420px;
-  }
-}
-@media screen and (min-width: 401px) and (max-width: 740px) {
-  #img-section {
-    height: 325px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #first-sec {
-    height: 516px;
-  }
-  #img-section {
-    height: 200px;
-  }
-  footer ul {
-    margin-left: -55px;
-    margin-top: 15px;
-  }
-  #pen-napkin img {
-    margin-bottom: 10px;
-  }
-}
 /* -- comeco.html -- */
 #img-section {
   position: relative;
@@ -152,12 +124,25 @@ figure>img,
   color: #cdbfe3;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-  background-image: url("https://dl.dropboxusercontent.com/u/104095732/NapkinSite/assets/img/people-woman-coffee-meeting.jpg");
+  background-image: url('/assets/img/people-woman-coffee-meeting.jpg');
   background-size: 100%;
   background-repeat: repeat-x;
-  h1 {
-    color: $light-text;
-  }
+}
+#img-section h1,
+#faq-img-section h1 {
+  color: $light-text;
+}
+
+/* -- faq.html -- */
+#faq-img-section {
+  position: relative;
+  padding: 30px 15px;
+  color: #cdbfe3;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  background-image: url("/assets/img/faq-keyboard.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
 }
 .bg {
   background: rgba(0,0,0,.54);

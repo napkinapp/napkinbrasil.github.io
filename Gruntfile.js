@@ -7,6 +7,14 @@ module.exports = function(grunt) {
                 dest: 'dist/css/<%= pkg.name %>.css'
             }
         },
+        concat: {
+         dist: {
+           src: [
+             'scss/napkin.scss', 'bower_components/page-scroll-effects/scss/style.scss'
+           ],
+           dest: 'scss/napkinstyle.scss',
+         }
+       },
         cssmin: {
             target: {
                 files: [{
@@ -33,6 +41,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-concat');
 
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('dev', ['sass']);

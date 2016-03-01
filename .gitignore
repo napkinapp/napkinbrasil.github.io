@@ -1,2 +1,9 @@
 # Sass cache
 .sass-cache
+
+# Parge Scroll Effects
+bower_components/page-scroll-effects/scss
+bower_components/page-scroll-effects/partials
+
+# Node Modules
+node_modules
