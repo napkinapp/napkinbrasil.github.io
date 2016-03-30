@@ -66,7 +66,7 @@ Before start the installation, please install [NodeJs](https://nodejs.org/en/), 
 3. Install the http-server and run this: 
 
 	```
-	$ npm install http-server -g && http-sever
+	$ npm install http-server -g && http-server
 	```
 	
 To access the website, just type `localhost:8080` on your favourite browser.
