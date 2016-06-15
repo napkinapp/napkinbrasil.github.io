@@ -1,0 +1,37 @@
+@media screen and (min-width: 900px) {
+  #first-sec {
+    height: 650px;
+  }
+  #img-section,
+  #faq-img-section {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 899px) {
+  #img-section,
+  #faq-img-section {
+    height: 420px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 740px) {
+  #img-section,
+  #faq-img-section {
+    height: 325px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #first-sec {
+    height: 516px;
+  }
+  #img-section,
+  #faq-img-section {
+    height: 200px;
+  }
+  footer ul {
+    margin-left: -55px;
+    margin-top: 15px;
+  }
+  #pen-napkin img {
+    margin-bottom: 10px;
+  }
+}
