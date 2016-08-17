@@ -53,10 +53,10 @@ Here are the pure SASS files. If you want to modify any layout of the website, i
 
 Before start the installation, please install [NodeJs](https://nodejs.org/en/), if you don't have this yet.
 
-1. Clone this repo or download the [ZIP](https://github.com/NapkinBrasil/napkinbrasil.github.io/archive/master.zip):
+1. Clone this repo or download the [ZIP](https://github.com/napkinapp/napkinbrasil.github.io/archive/master.zip):
 
 	```
-	$ git clone https://github.com/NapkinBrasil/napkinbrasil.github.io.git
+	$ git clone https://github.com/napkinapp/napkinbrasil.github.io.git
 	```
 2. Run npm to install all dependences: 
 
