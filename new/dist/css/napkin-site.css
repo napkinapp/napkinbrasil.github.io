@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #F50057;
+  /*color: $primary-color;*/
   font-weight: 300; }
 
 .light {
@@ -211,10 +211,10 @@ figure > img {
   left: 35%;
   margin-left: 15px;
   bottom: -95px;
-  border: 2px solid #fff;
+  border: 2px solid #FFFFFF;
   border-radius: 13px; }
 
-.mouse .cursor {
+.mouse .finger {
   position: absolute;
   width: 2px;
   background: #C51162;
@@ -252,6 +252,9 @@ figure > img {
   border: 1px solid #eaeced;
   background: #FFFFFF;
   color: #585b60; }
+
+.features h4 {
+  color: #F50057; }
 
 /* -- Banner -- */
 .startup-img {
@@ -298,12 +301,29 @@ p.subtitle {
   font-size: 1.3em;
   font-weight: 100; }
 
-/* -- Description First -- */
+/* -- List -- */
+.list {
+  list-style: none; }
+
+.list li {
+  padding: 15px 0; }
+
+.list li i {
+  color: #F50057;
+  font-size: 2.3em; }
+
+/* -- Description -- */
 #description-first,
 #description-second {
   background-color: #f8f9fb;
   padding-top: 105px;
   padding-bottom: 35px; }
+
+#description-first .list {
+  padding: 35px 5px; }
+
+#description-second #iphone {
+  width: 70%; }
 
 /* -- Description-napkin -- */
 #description-napkin figure img {
